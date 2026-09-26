@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>1967 Chevelle SS 396 | Sales by Kresser</title>
+<meta name="description" content="1967 Chevrolet Chevelle SS 396 California car, numbers-matching 396, solid rust-free body, 32-year garage find. Asking $48,500.">
+<style>
+:root{--ink:#171717;--muted:#666;--paper:#f5f3ef;--card:#fff;--accent:#7b1f26}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink);line-height:1.5}
+.wrap{max-width:1100px;margin:auto;padding:0 18px}.top{background:#111;color:#fff;padding:14px 0;font-weight:700;letter-spacing:.04em}
+.hero{padding:38px 0 22px}.hero h1{font-size:clamp(2rem,5vw,4rem);line-height:1.03;margin:.1em 0}.kicker{font-weight:800;color:var(--accent);text-transform:uppercase;letter-spacing:.08em}
+.price{font-size:1.7rem;font-weight:800;margin:14px 0}.lead{font-size:1.15rem;max-width:850px}.heroimg{width:100%;border-radius:10px;display:block;box-shadow:0 8px 28px #0002}
+.section{padding:28px 0}.section h2{font-size:1.7rem;margin-bottom:10px}.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin:18px 0}
+details.fact{background:var(--card);border-radius:8px;border:1px solid #ddd;overflow:hidden}details.fact summary{padding:15px;cursor:pointer;list-style:none;font-weight:700}details.fact summary::-webkit-details-marker{display:none}details.fact summary:after{content:" +";float:right;color:var(--accent);font-size:1.25rem}details.fact[open] summary:after{content:" −"}.sub{display:block;font-weight:400;color:var(--muted);font-size:.94rem;margin-top:3px}.detailbody{border-top:1px solid #e4e4e4;padding:16px}.detailbody h3{margin:0 0 4px;font-size:1.35rem}.detailbody h4{margin:18px 0 6px}.detailbody ul{margin-top:7px}.detailimg{width:100%;max-width:760px;display:block;margin:14px auto;border-radius:8px}.idgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:14px}.idgrid figure{margin:0}.idgrid img{width:100%;height:190px;object-fit:cover;border-radius:7px}.idgrid figcaption{font-size:.86rem;color:var(--muted);margin-top:4px}.idgrid a,.image-link{display:block}.idgrid a img,.image-link img{cursor:zoom-in}.clicknote{text-align:center;color:var(--muted);font-size:.85rem;margin-top:8px}.caption{text-align:center;color:var(--muted);font-size:.9rem;margin-top:-6px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.gallery a{display:block}.gallery img{width:100%;height:220px;object-fit:cover;border-radius:8px;background:#ddd;cursor:zoom-in}
+.videos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.videos h3{margin:0 0 7px}video{width:100%;max-height:650px;background:#000;border-radius:10px}.note{color:var(--muted);font-size:.95rem}.cta{background:#171717;color:#fff;padding:30px;border-radius:10px;margin:28px 0}.cta h2{margin-top:0}.cta .price{color:#fff}footer{padding:28px 0;color:#666;text-align:center;font-size:.9rem}
+
+.lightbox{display:none;position:fixed;z-index:9999;inset:0;background:rgba(0,0,0,.92);padding:28px;align-items:center;justify-content:center}.lightbox.open{display:flex}.lightbox img{max-width:95vw;max-height:90vh;object-fit:contain;border-radius:6px;box-shadow:0 0 30px #000}.lightbox-close{position:absolute;top:12px;right:20px;background:transparent;border:0;color:#fff;font-size:2.5rem;line-height:1;cursor:pointer}.lightbox-note{position:absolute;bottom:8px;left:0;right:0;text-align:center;color:#fff;font-size:.9rem}
+@media(max-width:700px){.gallery img{height:auto}.videos{grid-template-columns:1fr}.idgrid img{height:auto}}
+</style>
+</head>
+<body>
+</div>
+<p class="note">These videos demonstrate the Chevelle running and moving under its own power. They are not represented as a full road test.</p>
+</section>
+
+<section class="cta">
+<h2>Serious Inquiries Welcome</h2>
+<div class="price">$48,500 — Reasonable Offers Considered</div>
+<p>Located near Cincinnati, Ohio. Additional photographs, video and documentation are available for serious buyers.</p>
+<p><strong>Contact Joe Kresser — Call or Text: 513-752-3169</strong></p>
+</section>
+</main>
+<footer>Sales by Kresser • Vehicle represented as described to the best of the seller's knowledge.</footer>
+
+<div id="lightbox" class="lightbox" aria-hidden="true">
+<button class="lightbox-close" type="button" aria-label="Close enlarged image">&times;</button>
+<img id="lightbox-image" src="" alt="Enlarged identification photograph">
+<div class="lightbox-note">Click anywhere outside the picture, or the ×, to close.</div>
+</div>
+<script>
+(function(){
+  const box=document.getElementById('lightbox');
+  const big=document.getElementById('lightbox-image');
+  document.querySelectorAll('a.zoom-image').forEach(function(link){
+    link.addEventListener('click',function(e){
+      e.preventDefault();
+      big.src=this.getAttribute('href');
+      const thumb=this.querySelector('img');
+      big.alt=thumb ? thumb.alt : 'Enlarged photograph';
+      box.classList.add('open');
+      box.setAttribute('aria-hidden','false');
+    });
+  });
+  function closeBox(){box.classList.remove('open');box.setAttribute('aria-hidden','true');big.src='';}
+  box.addEventListener('click',function(e){if(e.target===box || e.target.classList.contains('lightbox-close')) closeBox();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape') closeBox();});
+})();
+</script>
+</body></html>
